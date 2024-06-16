@@ -6,6 +6,18 @@ This project aims to predict customer churn using an Artificial Neural Network (
 # Why is this Useful?
 Customer churn is a significant problem for many businesses, particularly those in highly competitive industries. By accurately predicting which customers are likely to leave, businesses can implement targeted retention strategies, improving customer satisfaction and reducing turnover. This can lead to increased revenue and reduced costs associated with acquiring new customers to replace those who have left.
 
+# What is an Artificial Neural Network (ANN)?
+ An Artificial Neural Network (ANN) is a computational model inspired by the way biological neural networks in the human brain process information. ANNs are composed of layers of interconnected nodes, called neurons, where each connection represents a weight. ANNs are used in various applications including classification, regression, and pattern recognition due to their ability to model complex non-linear relationships.
+
+**Key Components of ANN:**
+- **Input Layer**: Receives the input data.
+- **Hidden Layers**: Perform transformations on the input data through weighted connections and activation functions. They extract relevant features and patterns.
+- **Output Layer**: Produces the final prediction or classification.
+  
+**Activation Functions**:
+- **ReLU (Rectified Linear Unit)**: Used in hidden layers to introduce non-linearity.
+- **Sigmoid**: Used in the output layer for binary classification tasks, producing an output between 0 and 1.
+
 # Libraries Used and Their Purpose
 
 **1. NumPy**
